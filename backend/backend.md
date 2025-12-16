@@ -5,6 +5,8 @@ i will document by step by step process of building this clone app to practice.
 3. then i create app.js file and set the expess module to our app
 4. now we make server.js file to create a server for our web and add http to our app.js
 5. then we install dotenv and cors by "npm i dotenv cors"
+
+
         🌱 dotenv
 What it is:
 dotenv is a library that loads variables from a .env file into your app’s environment (process.env).
