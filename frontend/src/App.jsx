@@ -2,9 +2,9 @@ import React from 'react';
 import { Route, Routes } from 'react-router-dom';
 import Home from './pages/homePage';
 import UserLogin from './pages/userLogin';
-import UserSignIn from './pages/usersignin';
+import UserSignup from './pages/usersignup';
 import CaptainLogin from './pages/Captainlogin';
-import CaptainSignIn from './pages/Captainsignin';
+import CaptainSignup from './pages/Captainsignup';
 
 const App = () => {
   return (
@@ -12,9 +12,9 @@ const App = () => {
     <Routes>
      <Route path="/" element={<Home/>} />
      <Route path="/Login" element={<UserLogin/>} />
-     <Route path="/Signin" element={<UserSignIn/>} />
+     <Route path="/Signin" element={<UserSignup/>} />
      <Route path="/CaptainLogin" element={<CaptainLogin/>} />
-     <Route path="/CaptainSignin" element={<CaptainSignIn/>} />
+     <Route path="/CaptainSignin" element={<CaptainSignup/>} />
     </Routes>
     </div>
   );
