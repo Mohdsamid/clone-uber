@@ -1,8 +1,8 @@
 import React from 'react';
 
-const UserSignIn = () => {
+const UserSignup = () => {
   return (
-    <div> <h1 className='text-black'>UserSignIn Page</h1></div>
-  );
+    <div>User Signup Page</div>
+  )
 };
-export default UserSignIn;
+export default UserSignup;
